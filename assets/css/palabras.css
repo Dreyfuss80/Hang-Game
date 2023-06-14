@@ -1,0 +1,52 @@
+
+.palabras__title {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.ingreso__container {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.modulo__container-on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    justify-items: center;
+    width: 600px;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid #03045e;
+}
+.input__palabra-new {
+    width: 200px;
+    height: 40px;
+}
+
+.modulo__container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container__show {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid blue;
+    padding: 4px;
+}
+
+.ocultar {
+    display: none;
+}

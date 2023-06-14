@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/palabras.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <title>Agregar Palabras</title>
+</head>
+<body>
+    <h3 class="palabras__title">Ingresando Palabra o Palabras</h3>
+    <div class="ingreso__container">
+        <button class="button__ingresar-palabra" id="button__ingresar-palabra">Ingresar Palabra</button>
+        <button class="button__ingresar-parrafo" id="button__ingresar-oracion">Ingresar Oración</button>
+        <button class="button__inicio" id="button__inicio">Ir al inicio</button>
+    </div>
+
+    <div class="modulo__container" id="modulo__container">
+        <div class="palabra__container container__show ocultar" id="agregar__palabra">
+            <input type="text" placeholder="Ingrese su Palabra" id="input__guardar-palabra">
+            <button class="button__guardar-palabra">Agregar</button>
+        </div>
+        <div class="oracion__container container__show ocultar" id="agregar__oracion">
+            <input type="text" placeholder="Ingrese su oración">
+            <button class="button__agregar-oracion">Agregar</button>
+        </div>
+    </div>
+
+
+    <script src="assets/js/palabras.js"></script>
+</body>
+</html>
