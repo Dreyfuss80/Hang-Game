@@ -1,20 +1,81 @@
-
-
-.title {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 30px;
+body {
+    margin: 0;
+    background: url(../img/fondo.png) no-repeat center;
+    background-size: cover;
+    font-family: 'Special Elite', cursive, Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
-.button__container {
+header {
+    background: url(../img/footer__bg.svg);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
     display: flex;
-    flex-direction: column;
+    gap: 30px;
+}
+
+#imagen {
+    border-radius: 15px;
+}
+
+.botones button{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+}
+
+#palabra-a-adivinar {
+    height: 3em;
+}
+
+#palabra-a-adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 40px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+#letras {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+#letras button {
+    padding: 6px 0;
+    width: 28px;
+    text-align: center;
+}
+
+.navegacion {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
     gap: 20px;
     align-items: center;
+    justify-content: center;
 }
 
-   .footer__container {
+.footer__container {
     width: 100%;
     height: 30px;
     position: absolute;
@@ -28,3 +89,4 @@
     color: white;
 
    }
+
